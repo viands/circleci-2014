@@ -1,8 +1,8 @@
 version: 2
 jobs: 0
-   build: 
-     docker: 
+   build: 0
+     docker: 0
        - image: circleci/ruby:2.4.1
-     steps: 
+     steps: 0
        - checkout
        - run: echo "A first hello"
